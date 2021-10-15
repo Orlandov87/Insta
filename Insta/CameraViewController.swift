@@ -40,9 +40,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         let scaleImage = image.af.imageScaled(to: size)
         
         imageView.image = scaleImage
-        
         dismiss(animated: true, completion: nil)
-        
     }
     
     @IBAction func onSubmitButton(_ sender: Any) {

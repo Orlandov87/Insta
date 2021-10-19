@@ -13,6 +13,7 @@
 		5534675D27165B9100E07ACB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5534675B27165B9100E07ACB /* Main.storyboard */; };
 		5534675F27165B9300E07ACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5534675E27165B9300E07ACB /* Assets.xcassets */; };
 		5534676227165B9300E07ACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5534676027165B9300E07ACB /* LaunchScreen.storyboard */; };
+		559C8968271E452F00993BDD /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C8967271E452E00993BDD /* CommentCell.swift */; };
 		55F8317427166F4D00E894A9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F8317327166F4D00E894A9 /* LoginViewController.swift */; };
 		55F8317627166F9100E894A9 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F8317527166F9100E894A9 /* FeedViewController.swift */; };
 		55F8317827167CB400E894A9 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F8317727167CB400E894A9 /* CameraViewController.swift */; };
@@ -27,6 +28,7 @@
 		5534675E27165B9300E07ACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5534676127165B9300E07ACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5534676327165B9300E07ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559C8967271E452E00993BDD /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		55F8317327166F4D00E894A9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		55F8317527166F9100E894A9 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		55F8317727167CB400E894A9 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				55F8317527166F9100E894A9 /* FeedViewController.swift */,
 				55F8317327166F4D00E894A9 /* LoginViewController.swift */,
 				55F8317727167CB400E894A9 /* CameraViewController.swift */,
+				559C8967271E452E00993BDD /* CommentCell.swift */,
 				5534675B27165B9100E07ACB /* Main.storyboard */,
 				5534675E27165B9300E07ACB /* Assets.xcassets */,
 				5534676027165B9300E07ACB /* LaunchScreen.storyboard */,
@@ -221,6 +224,7 @@
 				55F8317627166F9100E894A9 /* FeedViewController.swift in Sources */,
 				5534675827165B9100E07ACB /* SceneDelegate.swift in Sources */,
 				55F8317A27168C0000E894A9 /* PostCell.swift in Sources */,
+				559C8968271E452F00993BDD /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
